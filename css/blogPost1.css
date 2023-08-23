@@ -1,0 +1,78 @@
+html{
+
+}
+body{
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10pt;
+    padding: 5pt;
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+}
+h2, h3, img, .bDHeadline:hover{    
+    cursor: pointer;
+
+}
+
+.leadNews{
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+
+}
+.leadNews img{
+    width: 100%;
+}
+.leadNews div{
+    max-width: 50%;
+}
+.category{
+    text-transform: uppercase;
+    color: #860202; 
+    font-size: 1rem;
+    margin: 0;
+}
+h2, h3, .bDHeadline{
+    color: #04a6e6;
+    margin: 0 auto;
+}
+h3, h2{
+    margin: 4px auto;
+}
+.leadNews p{
+    font-size: 1.1rem;
+}
+
+p{
+    margin-top: 0;
+}
+/*Second Division*/
+.mainDiv{
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+.com_Ana{
+    color: grey;
+}
+.secondNews{
+    display: flex;
+    gap: 0.6rem;
+}
+.secondNews div{
+    min-width: 40%;
+}
+.bottomNews{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.bottomNews img, .bottomNews div{
+    width: 140px;
+}
+

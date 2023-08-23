@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Fira+Sans+Condensed:wght@200&family=PT+Sans+Narrow&family=Poppins:wght@200;300;400&display=swap');
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 8pt;
+    font-weight: 50;
+    margin: 0;
+
+}
+#titleBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    background-color: #4169e1;
+}
+#container{
+    max-width: 100%;
+    margin: auto;
+}
+#wndCtrl{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;  
+}
+.mediaSubDiv table{
+    display: flex;
+    flex-direction: column;
+}
+.mediaSubDiv table tr{
+    display: flex;
+    flex: row;
+}
+#subContainer1{
+    display: flex;
+    justify-content: left;
+    gap: 0.5%;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+#subContainer1 p{
+    padding: 4px 10px;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#subContainer1 p:hover{
+    background-color: #3fc1f5;
+}
+.subTitle{
+    margin: 0.8px 0 ;
+}
+#playSpace{
+    max-width: 100%;
+    height: 70vh;
+    margin: auto;
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.lengthMeasure{
+    width: 85%;
+    height: 10px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+
+}
+#lengthMeasureDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lengthMeasureDiv p{
+    margin: 0;
+}
+.bottomDiv{
+    display: flex;
+    gap: 12px;
+}
+.BD{
+    display: flex;
+}
+.BD span{
+    margin-left: -9px;
+}

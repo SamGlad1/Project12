@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-size: 12pt;
+    color: #0a036b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-color: #949596;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-block-end: 2rem;
+}
+main{
+    width: 60%;
+}
+aside{
+    width: 20%;
+}
+img{
+    height: 150px;
+    object-fit: fill;
+}
+.featured-article{
+    padding-bottom: 1rem;
+    border-bottom: solid 2px #077404;
+
+}
+.article-info{
+    font-size: 0.7rem;
+}
+.featured-article-image{
+    height: 490px;
+}
+.other-article{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.h21{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.other-article img{
+    margin-right: 2rem;
+}
+h1{
+    color: #10f708;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.h1text{
+    color: #f3ef07;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 0;
+    cursor: pointer;
+}
+.pages{
+    width: 12rem;
+    margin-right: 3rem;
+}
+.pages ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 2rem;
+}
+.pages ul li{
+    justify-content: space-between;
+}
+.pages ul a{
+    color: #10f708;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.active-page{
+    border-bottom: solid 0.5px #10f708;
+}
+.aboutme{
+    border: 20px #949596 solid;
+    width: 14rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.aside-content{
+    border-bottom: #949596 solid 3pt;
+    border-radius: 5pt;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.aside-content:last-child{
+    border-bottom: none;
+}
+footer{
+    background-color: #0a036b;
+    height:2rem;
+    text-align: center;
+    color: #fff;
+    padding: 4rem;
+}
+@media (max-width:1000px){
+    .maincontainer{
+        flex-direction: column;
+    }
+    body{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .featured-article-image{
+        height: 300px;
+    }
+    .other-article{
+        flex-direction: column;
+    }
+    .aboutme{
+        border: 0;
+    }
+    .aside-content{
+        border-bottom: 0;
+    }
+}
+@media (max-width:600px){
+    .header{
+        flex-direction: column;
+        padding: 0;
+    }
+    ul{
+        flex-direction: column;
+        float: left;
+        text-align: center;
+    }
+    h1,
+    .h1text{
+        text-align: center;
+    }
+    li{
+        width: fit-content;
+    }
+}

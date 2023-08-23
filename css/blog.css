@@ -1,0 +1,166 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+html{
+    font-size: 10pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+body{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    /* font: 10pt; */
+    /* font-weight: 50; */
+    /* font-family: 'Poppins', sans-serif; */
+    z-index: -10;
+
+
+}
+.cc{
+    justify-content: center;
+}
+.bodyOpen{
+    background-color: #000;
+    color: #fff;
+}
+header{
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 0 #e7e6e6;
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-content: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.previousBtn{
+    height: 30px;
+    transform: rotate(180deg);
+    transition: ease-in-out 0.25s;
+    border-radius: 50%;
+    padding: 3px;
+}
+.previousBtn:hover{
+    background-color: #d3d1d1;
+}
+.homeBtn{
+    height: 30px;
+    transition: ease-in-out 0.25s;
+    border-radius: 10px;
+    padding: 3px;
+}
+.homeBtn:hover{
+    background-color: #d3d1d1;
+}
+/* HOME SUBSECTION */
+.homeSubTitl-div{
+    width: 500px;
+    position: absolute;
+    z-index: 100;
+}
+.homeSubTitle{
+    background-color: #000;
+    color: #fff;
+    padding: -10px 5px;
+    /* padding-bottom: -2px; */
+    max-width: 22%;
+    border-radius: 5px;
+    border: solid 0.5px #fff;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    left: 75%;
+    bottom: 1.5rem;
+    transition: ease-in-out .8s;
+    display: none;
+
+}
+.homeSubTitleOpen{
+    display: block;
+    z-index: 100000;
+}
+.homeSubTitle ul{
+    padding-left: 10px;
+}
+.homeSubTitle ul li{
+    list-style: none;
+    margin-top: 3px;
+    border-bottom: solid .5px;
+    border-bottom-width: 100%;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+.homeSubTitle ul li:last-child{
+    border-bottom: none;
+}
+.homeSubTitle ul li:hover{
+    color: #0565c5;
+}
+.fonts{
+    display: none;
+}
+.fontsOpen{
+    display: block;
+}
+.fontsOpen{
+    display: block;
+}
+.fonts ul li{
+    border-bottom: none;
+}
+.smallFont{
+    font-size: 9pt;
+}
+.mediumFont{
+    font-size: 10pt;
+}
+.largeFont{
+    font-size: 11pt;
+    border-bottom: solid;
+}
+
+/* article section */
+article{
+    padding: 0 30px;
+    max-width: 100%;
+    text-align: justify;
+    z-index: 0;
+}
+article h3{
+    text-align: center;
+}
+article img{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.comment{
+    border-radius: 10px;
+    padding: 3px 7px;
+    outline: none;
+    width: 70%;
+    border: solid 1px;
+}
+.likeBtnOpen{
+    background-color: green;
+}
+.dislikeBtnOpen{
+    background-color: red;
+}
+footer button{
+    border-radius: 10px;
+    border: none;
+}
+
+footer{
+    background-color: #0565c5;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    gap: 0.5rem;
+}

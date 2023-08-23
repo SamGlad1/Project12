@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    align-items: center;
+    max-height: 99vh;
+    /* background-color: black; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13pt;
+    color: #1e58d6;
+}
+.mainContainer{
+    max-width: 14.5rem;
+    height: fit-content;
+    padding: 0.8rem;
+    background-color: dodgerblue;
+}
+.formDiv{
+    border: solid 0.5px;
+    margin-bottom: .5rem;
+    width: 14.3rem;
+
+}
+.formDiv input{
+    background-color: aliceblue;
+    font-size: 1rem;
+    padding: 5px;
+    color: black;
+    /* pointer-events: none; */
+    max-width: 13.9rem;
+    width: 95.5%;
+    height: 1.5rem;
+    border: none;
+    margin: 0;
+    text-align: right;
+    outline: none;
+
+}
+button{
+    padding: 3px;
+    width: 2.7rem; height: 2.7rem;
+    max-width: 100px;
+    margin-bottom: 3px;
+    position: relative;
+    z-index: 1;
+}
+.doubleRow{
+    height: 5.5rem;
+    z-index: 2;
+    position: absolute;
+    margin-left: 4px;
+}
+.doubleCol{
+    width: 5.6rem;
+
+}

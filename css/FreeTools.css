@@ -1,0 +1,123 @@
+body{
+    font-size: 10pt;
+}
+
+.firstContainer{
+    padding: 0  15%;
+}
+.img400px{
+    max-width: 400px;
+}
+.chartBox{
+    margin-top: 1rem;
+    background-color: #F9F5EA;
+    padding: 0 2rem;
+    border-radius: 5px;
+}
+.chartBox h5{
+    margin: 2px auto;
+}
+.chartBox h3{
+    margin-bottom: 0;
+}
+.chartBox button{
+    border: #0047FF solid 1px;
+    background-color: #0047FF;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.chartBox button:hover{
+    color: #0047FF;
+    background-color: #fff;
+    border: #0047FF solid 1px;
+    /* border-width: 1px; */
+
+}
+.img300pxDiv{
+    background-color: #000;
+    height: 300px;
+    padding: auto 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5px ;
+
+}
+.img300px{
+    max-width: 250px;
+}
+.fasDiv{
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    font-size: 11pt;
+    line-height: 1.5rem;
+    align-items: start;
+
+}
+.secondContainers{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+.fa-li{
+    color: green;
+    /* font-weight: 500; */
+}
+.actionClick{
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 12pt;
+    padding: -5px 5px;
+    width: fit-content;
+}
+.actionClick:hover{
+    /* background-color: blue; */
+}
+.actionClick i{
+    color: blue;
+}
+
+
+
+
+@media (max-width: 965px) {
+    body{
+    }
+    .chartBox{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .img300pxDiv{
+        /* visibility: hidden; */
+        width: 100%;
+        margin-top: 1.5rem;
+
+    }
+    .img300px{
+        visibility: visible;
+        max-width: 300px;
+    }
+    /* .fasDiv{
+        flex-direction: column;
+    } */
+    .secondContainers{
+        flex-direction: column;
+    }
+    .secondContainers h3{
+        font-size: 1.2rem;
+        color: #0047FF;
+    }
+    .cont2{
+        flex-direction: column-reverse;
+    }
+}

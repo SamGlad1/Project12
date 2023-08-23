@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    height: 100vh;
+    background-color: #eff4f5;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    width: 400px;
+    height: 230px;
+    box-shadow: 10px 10px 15px rgb(192, 182,183);
+    text-align: center;
+    padding: 15px auto;
+}
+.lower, .add{
+    padding: 7px 10px;
+    font-size: 10pt;
+    font-weight: 600;
+    margin: auto 0.5rem;
+    margin-top: 10px;
+    margin-top: 10px;
+
+}
+p{
+    font-size: 40pt;
+    font-weight: bold;
+    margin: 0 auto;
+}

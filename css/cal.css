@@ -1,0 +1,70 @@
+body{
+    background-color: #ebebeb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 20px #726f6f;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #222;
+}
+.screen{
+    height: 75px;
+    width: 85%;
+    border: 0;
+    outline: none;
+    pointer-events: none;
+    border-radius: 12px;
+    text-align: right;
+    background-color: #726f6f;
+    color: #fff;
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    width: 63px;
+    height: 63px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: none;
+
+}
+.btn-equal, .btn-clear{
+    width: 63px;
+    height: 63px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: none;
+}
+.btn-yellow{
+    background-color: rgb(240, 187, 54);
+    color: #fff;
+}
+.btn-equal{
+    background-color: green;
+    color: #fff;
+}
+.btn-clear{
+    background-color: red;
+    color: #fff;
+}
